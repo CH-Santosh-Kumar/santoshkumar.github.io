@@ -1,0 +1,636 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <title>CH SANTOSH KUMAR - CV</title>
+<!--
+Reflux Template
+https://templatemo.com/tm-531-reflux
+-->
+    <!-- Bootstrap core CSS -->
+    <link href="{%static 'vendor/bootstrap/css/bootstrap.min.css'%}" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{%static 'assets/css/fontawesome.css'%}" />
+    <link rel="stylesheet" href="{%static 'assets/css/templatemo-style.css'%}" />
+    <link rel="stylesheet" href="{%static 'assets/css/owl.css'%}" />
+    <link rel="stylesheet" href="{%static 'assets/css/lightbox.css'%}" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="{%static 'assets/parallax.js-1.5.0/parallax.min.js'%}"></script>
+  </head>
+
+  <body>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="{%static 'assets/images/author-image.jpg'%}" alt="" /></a>
+            </div>
+            <div class="author-content">
+              <h4>CHEMUDUPATI SANTOSH KUMAR</h4><br>
+              <span>SOFTWARE DEVELOPER</span><br>
+              <span>4.9 Year's experience</span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">Who is Santosh ?</a></li>
+                <li><a href="#section2">What I’m good at</a></li>
+                <li><a href="#section3">My Work</a></li>
+                <li><a href="#section4">Contact Me</a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="soial-icons">
+                <li>
+                  <a href="https://www.facebook.com/08.SANTY/"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/santosh-kumar-16769b90/"
+                  ><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/channel/UCq5aWTjEH_x0EzizyXHlAgw"
+                  ><i class="fa fa-dribbble"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+          <div class="section-heading">
+            <h2>About Me</h2>
+            <div class="line-dec"></div>
+            <span>Who is Santosh ? <br>
+            Santosh is an ambitious, dedicated and entusiastic person who is constantly trying to bring new elements in professional and personal aspects of life. Apart from a Developer in MNC, i am an Hip Hop artist and never misses an opportunity to show what i can do.</span>
+          </div>
+          <div class="left-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-image">
+                  <img src="{%static 'assets/images/left-image.jpg'%}" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-text">
+                  <h4>PROFESSIONAL FORTE</h4>
+                  <p>
+                     IT professional with more then 4.9 years of experience in TCS. I have received several appreciations and awards for being noteworthy in my field.<br><br>
+                     With more then 2 years of experience as Support executive and more then 2.5 years as Developer, i have been learning in and out of Software development.<br>
+                  </p>
+                  <div class="white-button">
+                    <a onclick="myFunction()" href="#">Persoanl Details</a>
+                    <p id="moreDetails"></p>
+
+                    <script>
+                            function myFunction() {
+                                  document.getElementById("moreDetails").innerHTML = 
+                                  "Name: CHEMUDUPATI SANTOSH KUMAR" + "<br>" +
+                                  "Role: Software Developer" + "<br>" +
+                                  "Nationality: Indian"
+                                  ;
+                                }
+                    </script>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-text">
+                  <h4>Personal Endavours</h4>
+                  <p>
+                    When i am not checking my indentations in code, i am persuing my hobby as a rapper. <br><br>
+                    Music has been an essential part of my life. Its been more then 2 years since i have started putting my creations on Youtube.<br><br>
+                    I also had opportunity to perform in corporate events and as  a free lancer i did shows at restaurents.<br><br>
+                    It feels great when people starts cheering and you know you are the one who made them grove. 
+                  </p>
+                  <div class="white-button">
+                    <a onclick="myArt()" href="#">Artistic Ability</a>
+                    <p id="moreDetails_art"></p>
+
+                    <script>
+                            function myArt() {
+                                  document.getElementById("moreDetails_art").innerHTML = 
+                                  "Art Form: Rap/Hip Hop" + "<br>" +
+                                  "Stage Name: The Rapping Poet ( a.k.a POET)" + "<br>" +
+                                  "Language: Hindi/English"+"<br>"
+                                  ;
+                                }
+                    </script>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-image">
+                  <img src="{%static 'assets/images/right-image.jpg'%}" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>What I’m good at?</h2>
+            <div class="line-dec"></div>
+            <span>
+              I have worked as a support executive and stayed late nights deploying jar files on Weblogic. Later i started developing Python automations and projects.<br><br>
+              I was given resposibality as module lead for vodafone applicationi's support team in TCS as well.<br><br>
+              Overall i am a good asset to team who could oversome all the odds and constantly hungry to learn something new.<br>
+              Below are some key technologies i worked in and my achievemennts using them.
+            </span>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4>Linux &amp; AIX</h4>
+                <p>
+                  In my first project, I have been given opportunity to work with Linux and AIX Environment and soon i fell in love with CLI. 
+                  Working on CLI was major part of our daily tasks as we were responsible for RedHat Web and application servers. Using Python and Shell script i automated most of the daily activities as Code deployments, Server Reboot, Critical error Detection in application server logs, thread count alerts and many more.<br><br>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4>Python</h4>
+                <p>
+                  In the span of 3 years i have been provided with many opportunities which gradually shifted my focus more towards python development.
+                  Initially i started learning python because of my automaton necessities.
+                  But later on when i started working on pursonal projects such as games using pygame, my interest became passion and now i am working as Python Developer. Apart from my company projects, i try to pick something new for my own learning in Python.<br><br>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4>Oracle Weblogic &amp; Oracle SQL</h4>
+                <p>
+                  I got familier with Oracle weblogic in my first project, as the code was hsoted in weblogic. As i was support executive, i was responsible to deploy code check thread count, monitor LSOF status, Keep data sources in check, manage load on Application servers and redirect transactions via different datasources.</br> Although all this could be done via CLI but using weblogic console was alot easier as it provide UI which was fairly easy to use.</br>
+                </p>
+              </div>
+            </div>
+              <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4>ORACLE SQL</h4>
+                <p>
+                 As part of support executive my role includes data extraction and analysis. We used oracle database to manage customer transactions. Thus utilising the opportunity i started creating queries which could simplify the daily tasks. Such as for monitoring transactions for a day, month or of a year.<br><br><br><br><br></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="first-service-icon service-icon"></div>
+                <h4>Creative Ideas</h4>
+                <p>
+                 Over the time of 4 years i have been given many challanges and faced dire situations, but such conditions motivate me to come up creative ideas for resolving the issues at hand. 
+                 Once created an entire automation to monitor number of hits on web and app servers in the span of 8 hours. This reduced all the manual checking one had to do post deployment.<br><br><br><br><br><br>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="third-service-icon service-icon"></div>
+                <h4>Other tools and Learnings</h4>
+                <p>
+                  Apart from my major experties mentioned above, below are the list of tools and Technologies i have worked with.<br>
+                  CSS&emsp;&emsp;&emsp;FileZilla&emsp;&emsp; SVN<br>
+                  HTML&emsp;&emsp;WinSCP&emsp;&emsp;GIT<br>
+                  Splunk&emsp;&emsp;Soap UI&emsp;&emsp;Docker<br>
+                  Service Now <br>Jupyter Notebook&emsp;&emsp;   Pycharm
+                  <br>    
+                    <p> Also as part of my learning, i started learning Django and now i am creating this portfolio website as a personal project.</p>    
+              </div>
+            </div>
+        </div>
+      </section>
+
+ <!--      <section class="section my-work" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>My Work</h2>
+            <div class="line-dec"></div>
+            <span>I am an IT Professional with 4.9 years of experience and i have been part of 3 projects. Sharing with you the project experience below</span
+            >
+          </div>
+
+<!--From Here Wrapper Started -->
+
+  <!--         <div class="row">
+       <div class="isotope-wrapper">
+              <form class="isotope-toolbar">
+                <label
+                  ><input
+                    type="radio"
+                    data-type="*"
+                    checked=""
+                    name="isotope-filter"
+                  />
+                  <span>all</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="eia"
+                    name="isotope-filter"
+                  />
+                  <span>Enterprise Intelligance and Automation</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="telefonica"
+                    name="isotope-filter"
+                  />
+                  <span>Telefonica</span></label>
+                <label
+                  ><input
+                    type="radio"
+                    data-type="vodafone"
+                    name="isotope-filter"
+                  />
+                  <span>Vodafone Application</span></label
+                >
+              </form>
+
+              <div class="isotope-box">
+                <div class="isotope-item" data-type="telefonica">
+                  <figure class="snip1321">
+                    <img
+                      src="{%static 'assets/images/portfolio-01.jpg'%}"
+                      alt="sq-sample26"/>
+                      <h2> Report automation for Service Management </h2>
+                    <figcaption>
+                      <a
+                        href="{%static 'assets/images/portfolio-01.jpg'%}"
+                        data-title="Caption"> </a>
+                      
+                      <span>In telefonica project, i was requested to automate all the manual reports that service management team creates and shared with Stakeholders via mail.<br>
+                        This was achieved using Pandas and integrating same with Service Now Table API.<br>
+                      This automation script will fetch Data from Service Now, Clean the data from unwanted column. Plot PIvot Tables and Graph's using Python's inbuilt libraries.</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="eia">
+                  <figure class="snip1321">
+                    <img
+                      src="{%static 'assets/images/portfolio-02.jpg'%}"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="{%static 'assets/images/portfolio-02.jpg'%}"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Second Title</h4>
+                      <span>please tell your friends</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="vodafone">
+                  <figure class="snip1321">
+                    <img
+                      src="{%static 'assets/images/portfolio-03.jpg'%}"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="{%static 'assets/images/portfolio-03.jpg'%}"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Item Third</h4>
+                      <span>customize anything</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="eia">
+                  <figure class="snip1321">
+                    <img
+                      src="{%static 'assets/images/portfolio-04.jpg'%}"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="{%static 'assets/images/portfolio-04.jpg'%}"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Item Fourth</h4>
+                      <span>Re-distribution not allowed</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="telefonica">
+                  <figure class="snip1321">
+                    <img
+                      src="{%static 'assets/images/portfolio-05.jpg'%}"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="{%static 'assets/images/portfolio-05.jpg'%}"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Fifth Awesome</h4>
+                      <span>Ut sollicitudin risus</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="vodafone">
+                  <figure class="snip1321">
+                    <img
+                      src="{%static 'assets/images/portfolio-06.jpg'%}"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="{%static 'assets/images/portfolio-06.jpg'%}"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Awesome Sixth</h4>
+                      <span>Donec eget massa ante</span>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+ -->
+
+<section class="section my-parallax" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>My Work</h2>
+            <div class="line-dec"></div>
+            <span>I am an IT Professional with 4.9 years of experience and i have been part of 3 projects. Below are my project experiences. </span
+            >
+          </div>
+
+          <div class="parallax" data-parallax="scroll" 
+            data-z-index="1" data-image-src="{%static 'assets/images/p1.jpg'%}">
+
+          <p class="title" style=" left: 12%;">Voice Bot Automation Using Flask and Twilio </p>
+
+        </div>
+        <br>
+
+        <p class="info">As part of EIA project i have been given opportunity to create a Voice Boats using Python and Twilio. Key features of this project are given below:  <br>
+        <li style="font-size: 14px; font-style: italic;">Voice bot could be triggered by calling on the given number and uses speech recognition to gather input.</li>
+
+        <li style="font-size: 14px; font-style: italic;"> Voice bot is integrated with service now using Table api.</li>
+
+        <li style="font-size: 14px; font-style: italic;"> Using Voice bot user can raise a new incident under any team or gather status of incidents raised by him.</li>
+
+        <li style="font-size: 14px; font-style: italic;"> Further enhancement with servers could be done to implement password reset functionality using voice bot.</li>
+        </p>
+
+<!--         I have been requested to develop a fucntionality which could be used for on-fly ticket creation, update and achieve other necessary tasks such as UserID or PASSWORD reset.
+        <br>
+        For above request, i have created a voice bot by integrating Python's flask web app with Twilio and hosted the same on azure cloud. -->
+
+        <div class="parallax" data-parallax="scroll" 
+            data-z-index="1" data-image-src="{%static 'assets/images/p2.jpg'%}">
+
+          <p class="title" style="left:04%;">Service Management Report Automation for Telefonica</p>
+
+        </div>
+            
+          <br>
+        <p class="info">Under telefonica project, i was requested to automate all the manual reports that service  management team creates on daily weekly and Monthly basis. Key features of this project are given below:
+          <br>
+           <li style="font-size: 14px; font-style: italic;">Request is achieved using python and other open source libraries.</li>
+           <li style="font-size: 14px; font-style: italic;">Automation script replicates all the manual tasks i.e fetching data from ITSM tool, Data cleaning, Data analysis, Creating Pivot tables and Plotting Graphs and Sharing final report in mail.</li>
+           <li style="font-size: 14px; font-style: italic;">Key benefit of this automation is that it is time saving and reduces repetitive tasks.</li>
+           <li style="font-size: 14px; font-style: italic;">Script could be integrated with any ITSM tool api with minor code changes and for further enhancement data could be displayed as dashboards using ELK and Splunk</li>
+        </p>
+
+        <div class="parallax" data-parallax="scroll" 
+            data-z-index="1" data-image-src="{%static 'assets/images/p3.jpg'%}">
+          <p class="title" style="left: 10%;">Support Executive for Vodafone Applications</p>
+        
+        </div>
+            
+          <br>
+
+          <p class="info">My first project in TCS was as Support Executive for Vodafone Application in TCS. I have learnt a lot from the project.Key learnings in this project are mentioned below.<br>
+            <li style="font-size: 14px; font-style: italic;">Here my role includes vodafone website handeling. I was responsible for managing packs on website. Maintaining web and application servers. Also handling business requests and sharing business reports.</li>
+            <li style="font-size: 14px; font-style: italic;">Major part of day to day tasks include code deployments and minor Website changes. We use Oracle Weblogic application along with Red hat linux server. This giving me great experience on shell scripting and administration roles on red hat  server.</li>
+            <li style="font-size: 14px; font-style: italic;">Oracle database was used to handel customer data. We had admin priviledges for customer data, so all the crud operations were under our responsibality. This helped me gain experience in writing SQL queries and optimize query performance.</li>
+            <li style="font-size: 14px; font-style: italic;"> Daily Business trend analysis and Reporting was also one of the activities that comes with the role. </li>
+            <li style="font-size: 14px; font-style: italic;"> Handeled critical client meetings and was point of contact for many major deployments with business (one them being GST addition). All these responsibilities helped me gain leadership skills and team handeling.</li></p>
+
+
+        <div class="parallax" data-parallax="scroll" 
+            data-z-index="1" data-image-src="{%static 'assets/images/p5.jpg'%}">
+          <p class="title">Developer for Vodafone Application at TCS</p>
+        </div>
+        <p class="info">As i wanted to learn more in vodafone applications, i requested my superiors to provide me with development rresponsibalities. Key learnings in this project are stated below.
+        </p>
+        <br>   
+             <li style="font-size: 14px; font-style: italic;">This was the first time i was given a role as a developer.</li>
+             <li style="font-size: 14px; font-style: italic;">I was assigned with adobe changes on website to keep track on the number of hits on the website from defferent sources.</li>
+             <li style="font-size: 14px; font-style: italic;">Created deployment and testing scripts for Uat and Dev servers.</li>
+             <li style="font-size: 14px; font-style: italic;">Worked on many new pages developed for IPL contest. Major technologies include Javascript, HTML and CSS</li>
+
+        </div>
+      </section>
+
+      <section class="section contact-me" data-section="section4">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Getting in touch is easy!</h2>
+            <div class="line-dec"></div>
+              <span>“A dream you dream alone is only a dream. A dream you dream together is reality.”<br></span>
+              <span style="font-style: italic;">― John Lennon</span><br><br>
+
+              <span> Drop a mail and let me know if you are interested in Hiring me.</span>
+
+          </div>
+          {% if name %}
+
+                <center>
+                  <h2>  Thanks {{ name }}!</h2>
+                  <p> You can also connect me on below given contact number.<br>
+                  +919892380045<br>
+                  +918689863289</p>
+                </center>
+                <br><br><br>
+
+          {% else %}
+          <div class="row">
+            <div class="right-content">
+              <div class="container">
+                <form id="contact" action="" method="post">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="name"
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your name..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="email"
+                          type="text"
+                          class="form-control"
+                          id="email"
+                          placeholder="Your email..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input
+                          name="subject"
+                          type="text"
+                          class="form-control"
+                          id="subject"
+                          placeholder="Subject..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <textarea
+                          name="message"
+                          rows="6"
+                          class="form-control"
+                          id="message"
+                          placeholder="Your message..."
+                          required=""
+                        ></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="button">
+                          Send Message
+                        </button>
+                      </fieldset>
+                     </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {% endif %}
+    </div>
+
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="{%static 'vendor/jquery/jquery.min.js'%}"></script>
+    <script src="{%static 'vendor/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
+
+    <script src="{%static 'assets/js/isotope.min.js'%}"></script>
+    <script src="{%static 'assets/js/owl-carousel.js'%}"></script>
+    <script src="{%static 'assets/js/lightbox.js'%}"></script>
+    <script src="{%static 'assets/js/custom.js'%}"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
+
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function() {
+        checkSection();
+      });
+
+    </script>
+
+  </body>
+</html>

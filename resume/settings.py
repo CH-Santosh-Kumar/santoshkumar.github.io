@@ -1,5 +1,7 @@
 from pathlib import Path
-
+import django_heroku
+import dj_database_url
+from decouple import config
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -39,6 +41,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'resume.urls'
@@ -114,6 +117,8 @@ STATICFILES_DIRS = [
 os.path.join(BASE_DIR,'static'),
 ]
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFileStorage'
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 EMAIL_USE_TLS = True
@@ -121,3 +126,5 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = "csantoshh08@gmail.com"
 EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT = '587'
+
+django_heroku.settings(locals())

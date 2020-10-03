@@ -13,7 +13,8 @@ def home(request):
     
     if request.method == 'POST' and email and name:
         send_mail(subject,message,email,to,fail_silently = False)
-        return render(request,'home.html',{'name': name})
+        return render(request,'mailSuccessful.html',{'name': name})
     else:
         return render(request,'home.html',{})
+
 
